@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero-section bg-[#F0CF56] h-[671.98px]">
+      <div class="top-menu md:flex md:items-center md:justify-around">
+        <div class="search-bar flex items-center justify-center">
+          <input
+            class="border border-white bg-transparent mt-10 md:mt-8 pr-[90px] py-2 text-white md:-ml-5 placeholder-white focus:outline-none pl-5"
+            type="text"
+            placeholder="Search"
+            value=""
+          />
+          <button
+            type="button"
+            class="mt-10 border border-white bg-transparent py-1 px-4 text-center md:mt-8 text-white text-2xl "
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="menu-logo hidden md:block mt-8 md:text-white text-3xl">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div
+        class="font-bold text-[#FFFFFF] text-center text-5xl md:text-7xl md:mt-32 mt-20 font-serif"
+      >
+        Natural Food
+      </div>
+      <div
+        class="font-bold text-white text-center text-xl mt-10 m-5 md:w-[520px] md:m-auto md:mt-14 md:text-center"
+      >
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div
+        class="hero-buttons flex flex-col mt-10 justify-center items-center md:flex-row md:mt-20 md:space-x-10"
+      >
+        <button
+          class="w-72 bg-[#12C757] h-14 rounded-3xl font-bold text-white hover:bg-[#10B34E]"
+          type="button"
+        >
+          READ MORE
+        </button>
+        <button 
+          type="button"
+          class="w-72 bg-white h-14 rounded-3xl font-bold text-black mt-6 md:mt-0 hover:bg-[#478AC9] hover:text-white"
+        >
+          <i class="fa-solid fa-square-caret-down"></i> VIEW ALL RECIPES
+        </button>
+      </div>
+    </div>
+
+    <!-- food menu starts here -->
+
+    <div
+      class="food-menu-container md:grid md:grid-cols-2 md:gap-4 md:justify-between md:mx-48"
+    >
+      <div class="food-menu mt-16 flex flex-col justify-center items-center">
+        <div class="food-image h-60 w-60">
+          <img src="/assets/1.png" alt="" srcset="" />
+        </div>
+        <div class="food-name text-2xl">Caesar salad</div>
+        <div class="food-price font-bold text-3xl mt-3">$20</div>
+        <div class="food-text-parag mx-16 mt-3 text-center md:w-80">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </div>
+      </div>
+
+      <div class="food-menu mt-16 flex flex-col justify-center items-center">
+        <div class="food-image h-60 w-60">
+          <img src="/assets/1.png" alt="" srcset="" />
+        </div>
+        <div class="food-name text-2xl">Greek salad</div>
+        <div class="food-price font-bold text-3xl mt-3">$45</div>
+        <div class="food-text-parag mx-16 mt-3 text-center md:w-80">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </div>
+      </div>
+
+      <div class="food-menu mt-16 flex flex-col justify-center items-center">
+        <div class="food-image h-60 w-60">
+          <img src="/assets/1.png" alt="" srcset="" />
+        </div>
+        <div class="food-name text-2xl">Mexican salad</div>
+        <div class="food-price font-bold text-3xl mt-3">$13</div>
+        <div class="food-text-parag mx-16 mt-3 text-center md:w-80">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </div>
+      </div>
+
+      <div class="food-menu mt-16 flex flex-col justify-center items-center">
+        <div class="food-image h-60 w-60">
+          <img src="/assets/1.png" alt="" srcset="" />
+        </div>
+        <div class="food-name text-2xl">classic Recotta</div>
+        <div class="food-price font-bold text-3xl mt-3">$24</div>
+        <div class="food-text-parag mx-16 mt-3 text-center md:w-80">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </div>
+      </div>
+    </div>
+    <!-- food menu ends here -->
+    <!-- content with photo starts hre -->
+    <div class="content-photo md:mt-8 md:flex">
+      <div
+        class="content h-[440px] bg-[#F0CF56] mt-8 md:h-[620px] md:w-1/2 md:flex md:items-center"
+      >
+        <div class="item md:ml-48 md:mr-10">
+          <div
+            class="heading text-white text-5xl text-center font-bold pt-16 md:text-8xl font-serif"
+          >
+            Healthy <br />
+            Evening
+          </div>
+          <div class="text mt-10 mx-6 text-center text-white md:mx-0">
+            Duis ultricies lacus sed turpis tincidunt id aliquet risus. Bibendum
+            est ultricies integer quis auctor. Id eu nisl nunc mi. Eget nunc
+            scelerisque
+          </div>
+          <div class="btn mt-10 flex items-center">
+            <button
+              class="w-72 bg-[#12C757] h-14 rounded-3xl font-bold text-white m-auto text-xl hover:bg-[#10B34E]"
+              type="button"
+            >
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="photo md:w-1/2 md:mt-8">
+        <div class="photo md:w-[930px] md:h-[730px] md:object-cover">
+          <img src="/assets/content-phto.jpeg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <!-- content with photo ends here -->
+
+    <!-- coontent with slider strats here -->
+    <div class="content-slider mt-20 mx-12 md:-mt-16">
+      <div class="header font-serif text-center text-5xl font-bold">
+        Learn Cooking Online
+      </div>
+      <div class="text mt-6 md:text-center">
+        Sample text. lick to select the text box. Click again or double click to
+        start editing the <br />
+        text
+      </div>
+      <div class="photos mt-14 md:flex md:justify-evenly">
+        <div class="1">
+          <div class="food-image flex items-center m-auto">
+            <img
+              class="m-auto rounded-3xl h-80 w-80"
+              src="/assets/pexels-photo-704951.jpeg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+        <div class="2 mt-8 md:mt-0">
+          <div class="food-image flex items-center m-auto">
+            <img
+              class="m-auto rounded-3xl h-80 w-80"
+              src="/assets/pexels-photo-704951.jpeg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+        <div class="mt-8 md:mt-0">
+          <div class="food-image flex items-center m-auto">
+            <img
+              class="m-auto rounded-3xl h-80 w-80"
+              src="/assets/pexels-photo-704951.jpeg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <div class="btn mt-10 flex items-center">
+          <button
+            class="w-72 bg-[#12C757] h-14 rounded-3xl font-bold text-white m-auto text-xl hover:bg-[#10B34E]"
+            type="button"
+          >
+            READ MORE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- content with slider ends here -->
+    <!-- content with phot 2 starts here -->
+    <div class="content-photo md:mt-8 md:flex">
+      <div
+        class="content h-[440px] bg-[#F0CF56] mt-8 md:h-[765px] md:w-1/2 md:flex md:items-center"
+      >
+        <div class="item md:ml-48 md:mr-10">
+          <div
+            class="heading text-white text-5xl text-center font-bold pt-16 md:text-8xl font-serif"
+          >
+            Our Ice Cream
+          </div>
+          <div class="text mt-10 mx-6 text-center text-white md:mx-0">
+            Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+            magna. Tempus urna et pharetra pharetra massa massa ultricies mi
+            quis. Ut faucibus pulvinar elementum enim neque volutpat. Augue
+            mauris augue neque gravida in. Image from
+          </div>
+          <div class="btn mt-10 flex items-center">
+            <button
+              class="w-72 bg-[#12C757] h-14 rounded-3xl font-bold text-white m-auto text-xl hover:bg-[#10B34E]"
+              type="button"
+            >
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="photo md:w-1/2 md:mt-8">
+        <div class="photo">
+          <img
+            src="/assets/Screenshot 2024-06-01 at 1.14.02 PM.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- content with photo 2 ends here -->
+
+    <!-- organic godness starts here -->
+    <div class="content-slider mt-20 mx-12 ">
+      <div class="header font-serif text-center text-5xl font-bold">
+        100% Organic Goodness
+      </div>
+      <div class="text mt-6 text-center">
+        Where we do things differently. 100% organic smoothies and cold pressed
+        juices is our thing.
+      </div>
+      <div class="btn">
+        <div class="btn mt-10 flex items-center">
+          <button
+            class="w-72 bg-[#12C757] h-14 rounded-3xl font-bold text-white m-auto text-xl hover:bg-[#10B34E]"
+            type="button"
+          >
+            READ MORE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- orgainc ends here -->
+
+    <!-- subscribe now starts here -->
+
+    <div class="subscribe bg-[#F0CF56] h-[440px] ">
+      <div
+        class="font-bold text-[#FFFFFF] text-center text-4xl md:text-6xl md:mt-32 mt-20 font-serif pt-8"
+      >
+      Subscribe And <br/> Follow Us
+      </div>
+      <div
+        class=" text-white text-center  mt-10 m-5 md:w-[520px] md:m-auto md:mt-10 md:text-center"
+      >
+      Be part of the story and follow us on Twitter via  and subscribe to the newsletter for news and updates about our workshops
+      
+      <div class="sub-btn md:flex md:flex-col md:mt-8 ">
+        <input
+            class="border border-black bg-transparent mt-8 pr-[90px] py-2 md: text-white rounded-3xl focus:outline-none pl-5 placeholder-white"
+            type="text"
+            placeholder="Email"
+            value=""
+          />
+        <button
+          class="w-72 md:w-[520px] bg-[#12C757] h-12 rounded-3xl font-bold text-white mt-5 mb-6 hover:bg-[#10B34E]"
+          type="button"
+        >
+          SUBSCRIBE
+        </button>
+      </div>
+    </div>
+
+<!-- subscribe now ends here -->
+
+<!-- footer starts here -->
+<div class="footer flex justify-center items-center m-auto bg-[#333333] h-36">
+  <div class="text text-white w-80 text-center md:w-full">
+    Sample text. Click to select the text box. Click again or double click to start editing the text.
+  </div>
+</div>
+  </body>
+</html>
